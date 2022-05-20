@@ -25,7 +25,7 @@ namespace VerifyPassword
 
             catch (Exception e)
             {
-                throw new Exception("The password is less than 8 digits");
+                throw new ArgumentException("The password is less than 8 digits");
                 
             }
 
@@ -38,7 +38,7 @@ namespace VerifyPassword
                 {
                     if (string.IsNullOrWhiteSpace(password))
                     {
-                        throw new Exception("The password cannot be null");
+                        throw new ArgumentException("The password cannot be null");
                       
                     }
 
@@ -46,7 +46,7 @@ namespace VerifyPassword
                 }
                 catch (Exception e)
                 {
-                    throw new Exception("The password cannot be null");
+                    throw new ArgumentException("The password cannot be null");
                 }
             }
 
@@ -57,7 +57,7 @@ namespace VerifyPassword
                 {
                     if (!password.Any(char.IsDigit))
                     {
-                        throw new Exception("The password should have atleast one digit");
+                        throw new ArgumentException("The password should have atleast one digit");
                        
                     }
 
@@ -65,7 +65,7 @@ namespace VerifyPassword
                 }
                 catch (Exception e)
                 {
-                    throw new Exception("The password should have atleast one digit");
+                    throw new ArgumentException("The password should have atleast one digit");
                 }
             }
 
@@ -76,7 +76,7 @@ namespace VerifyPassword
                 {
                     if (!password.Any(char.IsUpper))
                     {
-                         throw new Exception("The password should contain uppercase");
+                         throw new ArgumentException("The password should contain uppercase");
                        
                     }
 
@@ -84,7 +84,7 @@ namespace VerifyPassword
                 }
                 catch (Exception e)
                 {
-                    throw new Exception("The password should contain uppercase");
+                    throw new ArgumentException("The password should contain uppercase");
                 }
             }
 
@@ -95,13 +95,13 @@ namespace VerifyPassword
                 {
                     if (!password.Any(char.IsLower))
                     {
-                         throw new Exception("The password should contain lower case");
+                         throw new ArgumentException("The password should contain lower case");
                             
                     }
                 }
                 catch (Exception e)
                 {
-                    throw new Exception("The password should contain lower case");
+                    throw new ArgumentException("The password should contain lower case");
                 }
             }
             

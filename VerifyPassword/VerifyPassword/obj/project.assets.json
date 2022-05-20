@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\solaris\\source\\repos\\VerifyPassword\\VerifyPassword\\VerifyPassword.csproj",
+      "projectUniqueName": "D:\\PasswordExceptionTest\\PasswordExceptionTesting\\VerifyPassword\\VerifyPassword\\VerifyPassword.csproj",
       "projectName": "VerifyPassword",
-      "projectPath": "C:\\Users\\solaris\\source\\repos\\VerifyPassword\\VerifyPassword\\VerifyPassword.csproj",
+      "projectPath": "D:\\PasswordExceptionTest\\PasswordExceptionTesting\\VerifyPassword\\VerifyPassword\\VerifyPassword.csproj",
       "packagesPath": "C:\\Users\\solaris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\solaris\\source\\repos\\VerifyPassword\\VerifyPassword\\obj\\",
+      "outputPath": "D:\\PasswordExceptionTest\\PasswordExceptionTesting\\VerifyPassword\\VerifyPassword\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\solaris\\AppData\\Roaming\\NuGet\\NuGet.Config",

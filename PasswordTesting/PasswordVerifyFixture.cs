@@ -42,7 +42,7 @@ namespace PasswordTesting
             Password user = new Password();
             //act and assert
 
-            Assert.Throws<Exception>(() => Password.Verify(target));
+            Assert.Throws<ArgumentException>(() => Password.Verify(target));
             
         }
 

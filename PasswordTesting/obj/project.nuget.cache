@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wtBjgQB1x/4OfZzlgn4XQnGQvuXcLaaM2xO9KMvbKye/vLwjQXAHwo0jAcNvZpxhs0QlXYRZjkOPT+dqgk8ijg==",
+  "dgSpecHash": "lmZrXMGpH9UQF1CofZhwK0VYAgLixZqH+sN4rqrxbd5oKBhfKXiVE4YWpdoSRodk7yS41fxRHf47Crn9XGxamg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\solaris\\source\\repos\\PasswordTesting\\PasswordTesting.csproj",
+  "projectFilePath": "D:\\PasswordExceptionTest\\PasswordExceptionTesting\\PasswordTesting\\PasswordTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\solaris\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\solaris\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
